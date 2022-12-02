@@ -1,0 +1,23 @@
+div, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141414;
+}
+
+div, p {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background-color: #222222;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,12 @@
+@import "nullification.scss", "global.scss";
+
+header {
+    display: flex;
+        flex-direction: row;
+    position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    height: 48px;
+    background-color: #222222;
+}
