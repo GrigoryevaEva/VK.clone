@@ -3,6 +3,11 @@ div, p {
   padding: 0;
 }
 
+div, p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #141414;
 }
@@ -13,11 +18,23 @@ div, p {
 
 header {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 48px;
   background-color: #222222;
+}
+header .left-header {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+header .left-header .left-header_name-song {
+  color: rgb(147, 147, 147);
+}
+header .right-header {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=header.css.map */

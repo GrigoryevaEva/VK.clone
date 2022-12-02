@@ -1,12 +1,28 @@
-@import "nullification.scss", "global.scss";
+@import "nullification.scss", "global.scss", "Constant/Veriables/color-palette.scss";
 
 header {
     display: flex;
-        flex-direction: row;
+        align-items: center;
     position: fixed;
         top: 0;
         left: 0;
         right: 0;
     height: 48px;
-    background-color: #222222;
+    background-color: $elements-background;
+    
+    .left-header {
+        display: flex;
+            align-items: center;
+        flex: 1;
+
+        .left-header_name-song {
+            color: $text-gray-light;
+        }
+    }
+
+    .right-header {
+        display: flex;
+            align-items: center;
+    }
 }
+

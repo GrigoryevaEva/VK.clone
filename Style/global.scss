@@ -1,5 +1,7 @@
+@import "nullification.scss", "Constant/Veriables/color-palette.scss";
+
 body {
-    background-color: #141414;
+    background-color: $global-background;
 }
 
 div, p {

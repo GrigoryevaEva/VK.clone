@@ -1,1 +1,1 @@
-{"version":3,"sources":["../Style/global.scss","global.css"],"names":[],"mappings":"AAAA;EACI,yBAAA;ACCJ;;ADEA;EACI,iGAAA;ACCJ","file":"global.css"}
+{"version":3,"sources":["../Style/nullification.scss","global.css","../Style/global.scss","../Style/Constant/Veriables/color-palette.scss"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;ACCJ;;ACDA;EACI,yBCFgB;AFMpB;;ACDA;EACI,iGAAA;ADIJ","file":"global.css"}
